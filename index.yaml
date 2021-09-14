@@ -8,7 +8,7 @@ entries:
     created: "2021-08-13T10:29:10.631635-07:00"
     description: Cluster template for rke2
     digest: d3a3763369a72ab7f8684087039922d8c0a1af4c1fdf3e96ffdf02c5a62fecd9
-    name: cluster-template
+    name: cluster-template-ksd
     urls:
     - cluster-template-0.0.1.tgz
     version: 0.0.1
