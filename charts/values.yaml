@@ -2,6 +2,21 @@ cloudprovider: amazonec2
 
 cloudCredentialSecretName: amazonec2
 
+##
+# cluster specific values
+cluster:
+  # specify cluster name
+  name: aws-rke2
+
+  # specify cluster labels
+  labels: {}
+
+  # specify cluster annotations
+  annotations: {}
+
+##
+
+
 # Specify nodepool options. Can add multiple node groups, specify etcd, controlplane and worker roles.
 nodepools:
 - etcd: true
