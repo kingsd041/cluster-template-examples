@@ -19,7 +19,7 @@ cluster:
 
 # Specify nodepool options. Can add multiple node groups, specify etcd, controlplane and worker roles.
 nodepool:
-- etcd: true
+  etcd: true
   controlplane: true
   worker: true
 
