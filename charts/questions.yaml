@@ -147,7 +147,7 @@ questions:
 - variable: nodepool.spotPrice
   label: "AWS spot instance bid price"
   default: 0.5
-  type: number
+  type: integer
   description: "AWS spot instance bid price"
   show_if: cloudprovider=amazonec2
   group: "Nodepools"
