@@ -137,13 +137,13 @@ questions:
   required: true
   show_if: cloudprovider=amazonec2
   group: "Nodepools"
-#- variable: nodepool.rootSize
-#  label: "Root Disk Size"
-#  default: "16"
-#  type: string
-#  description: "AWS EC2 root disk size"
-#  show_if: cloudprovider=amazonec2
-#  group: "Nodepools"
+- variable: nodepool.rootSize
+  label: "Root Disk Size"
+  default: "16"
+  type: string
+  description: "AWS EC2 root disk size"
+  show_if: cloudprovider=amazonec2
+  group: "Nodepools"
 #- variable: nodepool.spotPrice
 #  label: "AWS spot instance bid price"
 #  default: "0.5"
