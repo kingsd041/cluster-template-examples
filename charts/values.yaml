@@ -18,13 +18,15 @@ cluster:
 
 
 # Specify nodepool options. Can add multiple node groups, specify etcd, controlplane and worker roles.
-nodepools:
+nodepool:
 - etcd: true
   controlplane: true
   worker: true
 
   # specify node labels
   labels: {}
+
+  name: aws-nodepool
 
   # specify node taints
   taints: {}
