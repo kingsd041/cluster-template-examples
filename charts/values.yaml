@@ -26,8 +26,6 @@ nodepool:
   # specify node labels
   labels: {}
 
-  name: aws-nodepool
-
   # specify node taints
   taints: {}
 
@@ -154,7 +152,7 @@ nodepool:
   volumeType: gp2
 
   # AWS VPC id
-  # vpcId: ""
+  vpcId: "vpc-09aecb61"
 
   # Create an EBS optimized instance
   useEbsOptimizedInstance: false
