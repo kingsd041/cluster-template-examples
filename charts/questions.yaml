@@ -151,6 +151,13 @@ questions:
   description: "AWS spot instance bid price"
   show_if: cloudprovider=amazonec2
   group: "Nodepools"
+- variable: nodepool.retries
+  label: "Set retry count for recoverable failures (use -1 to disable)"
+  default: 5
+  type: integer
+  description: "Set retry count for recoverable failures (use -1 to disable)"
+  show_if: cloudprovider=amazonec2
+  group: "Nodepools"
 - variable: nodepool.vpcId
   label: "VPC/SUBNET"
   default: ""

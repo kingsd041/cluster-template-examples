@@ -137,7 +137,7 @@ nodepool:
   # tags: "foo,bar"
 
   # Set retry count for recoverable failures (use -1 to disable)
-  retries: "5"
+  retries: 5
 
   # AWS root disk size (in GB)
   rootSize: "16G"
