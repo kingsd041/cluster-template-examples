@@ -147,14 +147,14 @@ questions:
 - variable: nodepool.spotPrice
   label: "AWS spot instance bid price"
   default: "0.5"
-  type: string
+  type: integer
   description: "AWS spot instance bid price"
   show_if: cloudprovider=amazonec2
   group: "Nodepools"
 - variable: nodepool.retries
   label: "Set retry count for recoverable failures (use -1 to disable)"
   default: "5"
-  type: string
+  type: integer
   description: "Set retry count for recoverable failures (use -1 to disable)"
   show_if: cloudprovider=amazonec2
   group: "Nodepools"
