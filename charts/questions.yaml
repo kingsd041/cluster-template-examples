@@ -139,21 +139,21 @@ questions:
   group: "Nodepools"
 - variable: nodepool.rootSize
   label: "Root Disk Size"
-  default: 16g
+  default: "16"
   type: string
   description: "AWS EC2 root disk size"
   show_if: cloudprovider=amazonec2
   group: "Nodepools"
 - variable: nodepool.spotPrice
   label: "AWS spot instance bid price"
-  default: 0.5
+  default: "0.5"
   type: integer
   description: "AWS spot instance bid price"
   show_if: cloudprovider=amazonec2
   group: "Nodepools"
 - variable: nodepool.retries
   label: "Set retry count for recoverable failures (use -1 to disable)"
-  default: 5
+  default: "5"
   type: integer
   description: "Set retry count for recoverable failures (use -1 to disable)"
   show_if: cloudprovider=amazonec2
