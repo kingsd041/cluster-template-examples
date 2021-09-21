@@ -140,10 +140,10 @@ nodepool:
   retries: 5
 
   # AWS root disk size (in GB)
-  rootSize: 16
+  rootSize: "16"
 
   # AWS spot instance bid price (in dollar)
-  spotPrice: 0.5
+  spotPrice: "0.5"
 
   # Set the name of the ssh user
   sshUser: ubuntu
