@@ -323,7 +323,7 @@ questions:
   group: "Nodepools"
 - variable: nodepool.region
   label: "Region"
-  default: sfo3
+  default: sfo31
   type: string
   description: "Digital Ocean region"
   show_if: cloudprovider=digitalocean
