@@ -144,13 +144,13 @@ questions:
   description: "AWS EC2 root disk size"
   show_if: cloudprovider=amazonec2
   group: "Nodepools"
-- variable: nodepool.spotPrice
-  label: "AWS spot instance bid price"
-  default: 0.5
-  type: string
-  description: "AWS spot instance bid price"
-  show_if: cloudprovider=amazonec2
-  group: "Nodepools"
+#- variable: nodepool.spotPrice
+#  label: "AWS spot instance bid price"
+#  default: 0.5
+#  type: string
+#  description: "AWS spot instance bid price"
+#  show_if: cloudprovider=amazonec2
+#  group: "Nodepools"
 - variable: nodepool.vpcId
   label: "VPC/SUBNET"
   default: ""
