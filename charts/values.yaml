@@ -164,5 +164,5 @@ nodepool:
   userdata: ""
 
   # AWS zone for instance (i.e. a,b,c,d,e)
-  zone: a
+  zone: ca-central-1d
 
