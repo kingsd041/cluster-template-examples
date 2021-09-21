@@ -1,6 +1,6 @@
 cloudprovider: amazonec2
 
-cloudCredentialSecretName: amazonec2
+cloudCredentialSecretName: ""
 
 ##
 # cluster specific values
