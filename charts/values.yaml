@@ -137,13 +137,13 @@ nodepool:
   # tags: "foo,bar"
 
   # Set retry count for recoverable failures (use -1 to disable)
-  retries: 5
+  retries: "5"
 
   # AWS root disk size (in GB)
-  rootSize: "16g"
+  rootSize: "16G"
 
   # AWS spot instance bid price (in dollar)
-  spotPrice: "0.5$"
+  spotPrice: "$0.5"
 
   # Set the name of the ssh user
   sshUser: ubuntu
